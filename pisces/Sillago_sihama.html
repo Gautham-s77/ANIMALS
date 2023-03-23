@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sillago sihama ( Forsskal,1775)</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+padding: 20px;
+background-color: #222;
+color: #f0f0f0;
+background-image: url('background.webp');
+background-size: cover;
+
+background-color: rgba(0, 0, 0, 0.875);
+background-blend-mode: multiply;
+}
+
+/* Style for the new container element */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+max-width: 400px;
+border-radius: 10px;
+margin: 20px;
+transition: transform 0.5s;
+}
+img:hover {
+transform: scale(1.1);
+}
+.info {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+justify-items: center;
+font-size: 18px;
+}
+.info div {
+background-color: #f0f0f0;
+border-radius: 5px;
+padding: 10px;
+color: #222;
+}
+.gallery {
+display: flex;
+overflow-x: scroll;
+gap: 10px;
+max-width: 400px;
+margin: 20px auto;
+}
+
+/* Style for the new container element */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.134);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the h1 element */
+h1 {
+  font-size: 36px;
+  margin: 20px 0;
+  color: rgb(187, 255, 0);
+}
+
+/* Style for the info section */
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Style for the info divs */
+.info div {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  color: #222;
+}
+/* Style for the animal images */
+img {
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px;
+  transition: transform 0.5s;
+}
+
+/* Style for the hover effect on the images */
+img:hover {
+  transform: scale(1.1);
+}
+
+/* Style for the gallery container */
+.gallery {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Style for the new gallery container */
+
+
+.gallery {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+<h1>Sillago sihama ( Forsskal,1775)</h1>
+<div class="gallery">
+<img class="gallery-item" src="https://indiabiodiversity.org/files-api/api/get/crop/img//Sillago%20sihama/Sisih_u3.jpg?h=500
+" alt="Animal Image 1">
+<img class="gallery-item" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Sillago_parvisquamis_01.JPG/640px-Sillago_parvisquamis_01.JPG
+" alt="Animal Image 2">
+<img class="gallery-item" src="https://www.meerwasser-lexikon.de/imgThumb/61872_5e70e6ef843ad.jpg" alt="AnimalImage 3">
+</div>
+<div class="info">
+    <div><strong>Environment:</strong> Marine; brackish; reef-associated; amphidromous</div>
+    <div><strong>Distribution:</strong> Indo-West Pacific: southern Red Sea South Africa to Japan and south to Australia</div>
+    <div><strong>Depth range:</strong> 0-60m</div>
+    <div><strong>Description:</strong> Dorsal spines (total): 11 - 13; Dorsal soft rays (total): 20-23; Anal spines: 2; Anal soft rays: 18 - 23. Swim bladder with two anterior and two posterior extensions.</div>
+    <div><strong>Biology:</strong> Common along beaches, sandbars, mangrove creeks and estuaries</div>
+    <div><strong>Feeding Biology:</strong> polychaete worms, small prawns (Penaeus), shrimps and amphipods</div>
+    <div><strong>Remarks:</strong> Rarely captured by prawn trawling vessels. Delicious and commercially important species</div>
+  </div>
+  </div>
+  <!-- <script>
+    const gallery = document.querySelector('.gallery');
+    const images = gallery.querySelectorAll('img');
+    let totalWidth = 0;
+
+images.forEach(image => {
+  totalWidth += image.offsetWidth;
+});
+    let scrollDirection = 1;
+    let scrollAmount = 0;
+    const maxScrollLeft = gallery.scrollWidth - gallery.offsetWidth + totalWidth;
+
+    gallery.scrollLeft = 0; // Set initial scroll position to zero
+    
+    setInterval(function() {
+      if (scrollAmount >= maxScrollLeft) {
+        scrollDirection = -1;
+      } else if (scrollAmount <= 0) {
+        scrollDirection = 1;
+      }
+      
+      scrollAmount += scrollDirection * 10;
+      gallery.scrollLeft += scrollDirection * 10;
+    }, 100);
+    </script> -->
+</body>
+</html>

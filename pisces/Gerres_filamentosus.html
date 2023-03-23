@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerres filamentosus (Cuvier, 1829)</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+padding: 20px;
+background-color: #222;
+color: #f0f0f0;
+background-image: url('background.webp');
+background-size: cover;
+
+background-color: rgba(0, 0, 0, 0.875);
+background-blend-mode: multiply;
+}
+
+/* Style for the new container element */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+max-width: 400px;
+border-radius: 10px;
+margin: 20px;
+transition: transform 0.5s;
+}
+img:hover {
+transform: scale(1.1);
+}
+.info {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+justify-items: center;
+font-size: 18px;
+}
+.info div {
+background-color: #f0f0f0;
+border-radius: 5px;
+padding: 10px;
+color: #222;
+}
+.gallery {
+display: flex;
+overflow-x: scroll;
+gap: 10px;
+max-width: 400px;
+margin: 20px auto;
+}
+
+/* Style for the new container element */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.134);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the h1 element */
+h1 {
+  font-size: 36px;
+  margin: 20px 0;
+  color: rgb(187, 255, 0);
+}
+
+/* Style for the info section */
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Style for the info divs */
+.info div {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  color: #222;
+}
+/* Style for the animal images */
+img {
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px;
+  transition: transform 0.5s;
+}
+
+/* Style for the hover effect on the images */
+img:hover {
+  transform: scale(1.1);
+}
+
+/* Style for the gallery container */
+.gallery {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Style for the new gallery container */
+
+
+.gallery {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+<h1>Gerres filamentosus (Cuvier, 1829)</h1>
+<div class="gallery">
+<img class="gallery-item" src="https://fishesofaustralia.net.au/Images/Image/GerresFilamentosTGT.jpg
+" alt="Animal Image 1">
+<img class="gallery-item" src="https://fishesofaustralia.net.au/images/image/GerresFilamentDavidMorgan.jpg
+" alt="Animal Image 2">
+<img class="gallery-item" src="https://v3.boldsystems.org/pics/_w300/DSLAG/Gerres_filamentosus_194.2A_%231%2B1329587302.JPG">
+</div>
+<div class="info">
+      <div><strong>Distribution:</strong> Indo-Pacific: East Africa and Madagascar to Japan and Australia</div>
+      <div><strong>Depth Range:</strong> 1-50m</div>
+      <div><strong>Description:</strong> 9 Dorsal spines, 10-11 Dorsal soft rays, Anal spines 2-3, Anal soft rays 7-8</div>
+      <div><strong>Biology:</strong> Adults are coastal inhabitants found on soft bottoms, Juveniles are found in brackish mangrove estuaries</div>
+      <div><strong>Feeding:</strong> small crustaceans and polychaetes</div>
+    </div>
+  </div>
+  <!-- <script>
+    const gallery = document.querySelector('.gallery');
+    const images = gallery.querySelectorAll('img');
+    let totalWidth = 0;
+
+images.forEach(image => {
+  totalWidth += image.offsetWidth;
+});
+    let scrollDirection = 1;
+    let scrollAmount = 0;
+    const maxScrollLeft = gallery.scrollWidth - gallery.offsetWidth + totalWidth;
+
+    gallery.scrollLeft = 0; // Set initial scroll position to zero
+    
+    setInterval(function() {
+      if (scrollAmount >= maxScrollLeft) {
+        scrollDirection = -1;
+      } else if (scrollAmount <= 0) {
+        scrollDirection = 1;
+      }
+      
+      scrollAmount += scrollDirection * 10;
+      gallery.scrollLeft += scrollDirection * 10;
+    }, 100);
+    </script> -->
+</body>
+</html>
